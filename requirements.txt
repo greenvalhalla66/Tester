@@ -1,15 +1,16 @@
-logging
-sqlite3
+import logging
+import sqlite3
 import os
 import uuid
 from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-telegram.ext
+from telegram.ext import (
     Application,
     CommandHandler,
     CallbackQueryHandler,
     ContextTypes,
     MessageHandler,
     filters,
-qrcode
+)
+import qrcode
 PyTelegramBotAPI~=3.6.6
