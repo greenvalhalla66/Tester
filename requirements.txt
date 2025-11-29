@@ -13,4 +13,3 @@ from telegram.ext import (
     filters,
 )
 import qrcode
-PyTelegramBotAPI~=3.6.6
